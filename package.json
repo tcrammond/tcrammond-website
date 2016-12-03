@@ -1,0 +1,22 @@
+{
+  "name": "tyler-crammond-website",
+  "version": "0.1.0",
+  "description": "My website.",
+  "main": "index.js",
+  "scripts": {
+    "server": "./node_modules/http-server/bin/http-server public"
+  },
+  "repository": {
+    "url": "http://github.com/tcrammond/tyler-crammond-website.git",
+    "type": "git"
+  },
+  "author": "Tyler Crammond <tyler.crammond@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.18.0",
+    "http-server": "^0.9.0",
+    "normalize.css": "^5.0.0",
+    "webpack": "^1.13.3"
+  }
+}

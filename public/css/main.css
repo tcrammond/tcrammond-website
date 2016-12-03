@@ -1,0 +1,43 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: arial;
+  letter-spacing: 0.025rem;
+  line-height: 1.5;
+  letter-spacing: 0.025rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: lowercase;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.075rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+.main {
+  padding: 3rem;
+}
+
+.heading {
+  margin-bottom: 25px;
+}
+.heading__name {
+  margin: 0;
+}
+.heading__title {
+  color: #b3b3b3;
+}
+
+.content > *{
+  margin-bottom: 2rem;
+}
+
+.toggl {
+  color: #cb171f;
+}
