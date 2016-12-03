@@ -22,6 +22,16 @@ p {
   color: #4a4752;
 }
 
+hr {
+  max-width: 300px;
+  margin: 1.5em 0;
+}
+
+a, a:visited {
+  color: #4ec3ff;
+  text-decoration: underline;
+}
+
 .main {
   padding: 3rem;
 }
@@ -36,10 +46,35 @@ p {
   color: #b3b3b3;
 }
 
-.content > div{
+.content > div {
   margin-bottom: 2rem;
 }
 
-.toggl {
+.list-portfolio {
+  list-style: none;
+  padding: 0;
+}
+
+.portfolio__item {
+
+}
+
+.portfolio__item__title {
+  display: block;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+.portfolio__item__date {
+  font-size: 0.8rem;
+  position: relative;
+  top: -5px;
+  color: lightslategray;
+}
+.portfolio__item_text {
+  font-size: 16px;
+}
+
+
+.link--toggl, .link--toggl:visited {
   color: #cb171f;
 }
