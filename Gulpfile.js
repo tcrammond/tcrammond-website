@@ -14,5 +14,10 @@ gulp.task('minifyCSS', function () {
     .pipe(gulp.dest('dist/css'))
 })
 
-gulp.task('build', ['minifyHTML', 'minifyCSS'])
+gulp.task('js', function () {
+  return gulp.src('public/js/*.js')
+    .pipe(gulp.dest('dist/js'))
+})
+
+gulp.task('build', ['minifyHTML', 'minifyCSS', 'js'])
 gulp.task('default', ['build'])
