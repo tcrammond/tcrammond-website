@@ -11,7 +11,7 @@ gulp.task('minifyHTML', function () {
 gulp.task('minifyCSS', function () {
   return gulp.src('public/css/*.css')
     .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist/css'))
 })
 
 gulp.task('build', ['minifyHTML', 'minifyCSS'])
