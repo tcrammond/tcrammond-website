@@ -117,3 +117,12 @@ em {
 .link--toggl, .link--toggl:visited {
   color: #cb171f;
 }
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+  .portfolio__item__title, .portfolio__item__text {
+    margin-bottom: 0.3rem;
+  }
+}
