@@ -126,3 +126,18 @@ em {
     margin-bottom: 0.3rem;
   }
 }
+
+@keyframes cat {
+  20% {
+    transform: translate(80%, 20%) rotate(90deg);
+  }
+  45% {
+    transform: translate(60%, 80%) rotate(140deg);
+  }
+  60% {
+    transform: translate(30%, 50%) rotate(250deg);
+  }
+  80% {
+    transform: translate(25%, 20%) rotate(100deg);
+  }
+}
