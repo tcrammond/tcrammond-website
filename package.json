@@ -6,7 +6,7 @@
   "scripts": {
     "server": "./node_modules/http-server/bin/http-server public",
     "build": "gulp",
-    "deploy": "surge dist"
+    "deploy": "gulp && surge dist tylercrammond.com"
   },
   "repository": {
     "url": "http://github.com/tcrammond/tyler-crammond-website.git",
