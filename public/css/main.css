@@ -107,6 +107,15 @@ em {
 .portfolio__item__link--play:before {
   content: '\f0d5';
 }
+.portfolio__item__link--chrome:before {
+  content: '\f268';
+}
+.portfolio__item__link--gh {
+  padding-left: 17px;
+}
+.portfolio__item__link--gh:before {
+  content: '\f09b';
+}
 .portfolio__item__link--web {
   padding-left: 17px;
 }
