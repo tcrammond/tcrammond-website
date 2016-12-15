@@ -123,6 +123,10 @@ em {
   content: '\f1fa';
 }
 
+.fa.fa-star {
+  font-size: 0.9rem;
+}
+
 .link--toggl, .link--toggl:visited {
   color: #cb171f;
 }
